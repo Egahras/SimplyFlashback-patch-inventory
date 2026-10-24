@@ -1,0 +1,13 @@
+SimplyFlashback inventory compatibility patch
+
+Original plugin: SimplyFlashback 0.1.1 by SimplyRan (simplyran)
+https://modrinth.com/plugin/simplyflashback
+Published license: Apache License, Version 2.0.
+
+Changes: normalize Minecraft 26.3 inventory packets to Flashback hotbar updates;
+allow full inventory synchronization through the 26.3 capture filter.
+The included build tool wraps V26_3Adapter.encodeCapturedPacket, redirects
+PacketCapture$1's outer filter and sets a distinct plugin.yml version.
+Original authorship, plugin identity and remaining entries are preserved.
+This independent patch is not endorsed by the upstream author.
+No original plugin binary, Minecraft classes or third-party libraries are included.
